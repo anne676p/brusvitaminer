@@ -7,3 +7,39 @@
 #hvorforimg {
   background-color: aquamarine;
 }
+
+h1 {
+  font-family: bree, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+#laesmere a {
+  text-decoration: none;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8em;
+  color: skyblue;
+}
+
+#laesmere a:hover {
+  color: black;
+}
+
+p {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border-color: skyblue;
+  border-style: solid;
+  border-width: thick;
+
+}
