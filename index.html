@@ -16,26 +16,37 @@
 </head>
 
 <body>
-  <header class="nav-bar sticky-top">
-    <div class="container-fluid">
-      <nav class="nav flex-column">
-        <a class="nav-link active" href="#!"> active</a>
-        <a class="nav-link" href="#!"> link</a>
-        <a class="nav-link" href="#!"> link</a>
-      </nav>
-    </div>
-  </header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top p-md-5">
+    <div class="container d-flex justify-content-end">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDrppdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </div><!-- end .container -->
+  </nav>
 
   <section class="hero py-5">
     <div class="container-fluid">
     </div>
   </section>
-
+  <div class="mellemrum py-lg-5 my-lg-5"></div>
   <section id="hvorfor" class="px-5 py-5">
     <div class="container d-flex flex-column flex-lg-row justify-content-lg-between">
-      <div id="hvorfortxt" class="col mb-4 px-lg-5">
-        <h1 class="mb-4">Vitaminer er vigtige for din krop. Men hvorfor?</h1>
-        <p>BRUS Vitaminer hjælper dig, der ønsker at få balance i din hverdag gennem vitaminer og kosttilskud. Vitaminer er kemiske forbindelser som din krop ikke selv danner. Sommetider kan det være nødvendigt at tage kosttilskud, hvis du er meget kræsen, din kost er ensidig, eller hvis din krop har svært ved at optage vitaminer.
+      <div id="hvorfortxt" class="col mb-4 px-lg-5 py-lg-5">
+        <h1 class="px-lg-5 mb-4">Vitaminer er vigtige for din krop. Men hvorfor?</h1>
+        <p class="px-lg-5">BRUS Vitaminer hjælper dig, der ønsker at få balance i din hverdag gennem vitaminer og kosttilskud. Vitaminer er kemiske forbindelser som din krop ikke selv danner. Sommetider kan det være nødvendigt at tage kosttilskud, hvis du er meget kræsen, din kost er ensidig, eller hvis din krop har svært ved at optage vitaminer.
 
           Vitaminer er nødvendige for at kroppen fungere optimalt. Det er ikke alle som indtager den tilstrækkelig mængde af de vigtigste vitaminer gennem kosten. Vitaminer bruges derfor som et supplement til kosten for at opnå mest muligt balance i kroppen. Det er derfor vigtigt at lytte til din krops behov.
 
@@ -47,46 +58,256 @@
   </section>
 
   <section id="produktvisning" class="col mb-4 px-5">
-    <div class="produkt">
-      <h1 class="mb-4">Forebyg nerve- og hudproblemer</h1>
-      <div id="gron" class="img"></div>
-      <div id="laesmere" role="tablist">
-        <div class="card">
-          <div class="card-header" role="tab" id="headingOne">
-            <h5 class="mb-0">
-              <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Læs mere om produktet
-              </a>
-            </h5>
+    <div class="mellemrum py-lg-5 my-lg-5"></div>
+    <h1 id="gron_overskrift" class="mb-4 text-center py-5">Forebyg nerve- og hudproblemer</h1>
+    <div class="container d-flex flex-column flex-lg-row justify-content-lg-between pb-5 gron">
+      <div class="produkt_img col px-5">
+        <div id="gron"> <img src="img/gron.png" class="img-fluid"> </div>
+      </div>
+      <div class="text col py-4 px-5 py-5">
+        <div>
+          <p class="py-lg-5 produkt_text">Forebyg nerve-og hudproblemer med BRUS
+            Vitamin-B6.
+
+            BRUS Vitamin-B6 hjælper dig, som har brug
+            for at forebygge nerve-og hudproblemer. Den
+            brusende tablet indeholder de mest naturlige
+            vitaminer og mineraler samt en forfriskende
+            smag af pære og lime.
+
+            Vitamin-B6 findes blandt andet i
+            mælkeprodukter, oksekød, æg, kål, lever og
+            grøntsager. Er du vegetar eller ikke drikker
+            mælk, ville dette supplement af kosttilskud
+            være perfekt til dig. </p>
+        </div>
+        <div id="laesmere" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Læs mere vitaminindholdet
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-body">
+                <p>Vitaminer: <br>
+                  Vitamin-B6 (pryridoxin)
+                  Pære; Vitamin A-, vitamin-B og vitamin-C
+                  Lime; Vitamin-B og vitamin-A<br>
+
+                  Mineraler:<br>
+                  Lime; fosfor, calcium og jern.<br>
+
+                  Vitamin B6 findes i:<br>
+                  Kål, mælk, oksekød, æg, lever og grøntsager.
+                </p>
+              </div>
+            </div>
           </div>
-          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-            <div class="card-body">
-              <p>Vitaminer: <br>
-                Vitamin-B6 (pryridoxin)
-                Pære; Vitamin A-, vitamin-B og vitamin-C
-                Lime; Vitamin-B og vitamin-A<br>
+        </div>
+      </div>
+    </div>
+    <div class="mellemrum py-lg-5 my-lg-5"></div>
+    <h1 id="gul_overskrift" class="mb-4 text-center py-5">Forebyg nerve- og hudproblemer</h1>
+    <div class="container d-flex flex-column flex-lg-row-reverse justify-content-lg-between gul">
+      <div class="produkt_img col px-5">
+        <div id="gul"> <img src="img/gul.png" class="img-fluid"> </div>
+      </div>
+      <div class="text col py-4 px-5 py-5">
+        <div>
+          <p class="py-lg-5 produkt_text">Forebyg nerve-og hudproblemer med BRUS
+            Vitamin-B6.
 
-                Mineraler:<br>
-                Lime; fosfor, calcium og jern.<br>
+            BRUS Vitamin-B6 hjælper dig, som har brug
+            for at forebygge nerve-og hudproblemer. Den
+            brusende tablet indeholder de mest naturlige
+            vitaminer og mineraler samt en forfriskende
+            smag af pære og lime.
 
-                Vitamin B6 findes i:<br>
-                Kål, mælk, oksekød, æg, lever og grøntsager.
-              </p>
+            Vitamin-B6 findes blandt andet i
+            mælkeprodukter, oksekød, æg, kål, lever og
+            grøntsager. Er du vegetar eller ikke drikker
+            mælk, ville dette supplement af kosttilskud
+            være perfekt til dig. </p>
+        </div>
+        <div id="laesmere" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Læs mere vitaminindholdet
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-body">
+                <p>Vitaminer: <br>
+                  Vitamin-B6 (pryridoxin)
+                  Pære; Vitamin A-, vitamin-B og vitamin-C
+                  Lime; Vitamin-B og vitamin-A<br>
 
-              <p>Forebyg nerve-og hudproblemer med BRUS
-                Vitamin-B6.
+                  Mineraler:<br>
+                  Lime; fosfor, calcium og jern.<br>
 
-                BRUS Vitamin-B6 hjælper dig, som har brug
-                for at forebygge nerve-og hudproblemer. Den
-                brusende tablet indeholder de mest naturlige
-                vitaminer og mineraler samt en forfriskende
-                smag af pære og lime.
+                  Vitamin B6 findes i:<br>
+                  Kål, mælk, oksekød, æg, lever og grøntsager.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mellemrum py-lg-5 my-lg-5"></div>
+    <h1 id="lilla_overskrift" class="mb-4 text-center py-5">Forebyg nerve- og hudproblemer</h1>
+    <div class="container d-flex flex-column flex-lg-row justify-content-lg-between pb-5 lilla">
+      <div class="produkt_img col px-5">
+        <div id="lilla"> <img src="img/lilla.png" class="img-fluid"> </div>
+      </div>
+      <div class="text col py-4 px-5 py-5">
+        <div>
+          <p class="py-lg-5 produkt_text">Forebyg nerve-og hudproblemer med BRUS
+            Vitamin-B6.
 
-                Vitamin-B6 findes blandt andet i
-                mælkeprodukter, oksekød, æg, kål, lever og
-                grøntsager. Er du vegetar eller ikke drikker
-                mælk, ville dette supplement af kosttilskud
-                være perfekt til dig. </p>
+            BRUS Vitamin-B6 hjælper dig, som har brug
+            for at forebygge nerve-og hudproblemer. Den
+            brusende tablet indeholder de mest naturlige
+            vitaminer og mineraler samt en forfriskende
+            smag af pære og lime.
+
+            Vitamin-B6 findes blandt andet i
+            mælkeprodukter, oksekød, æg, kål, lever og
+            grøntsager. Er du vegetar eller ikke drikker
+            mælk, ville dette supplement af kosttilskud
+            være perfekt til dig. </p>
+        </div>
+        <div id="laesmere" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Læs mere vitaminindholdet
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-body">
+                <p>Vitaminer: <br>
+                  Vitamin-B6 (pryridoxin)
+                  Pære; Vitamin A-, vitamin-B og vitamin-C
+                  Lime; Vitamin-B og vitamin-A<br>
+
+                  Mineraler:<br>
+                  Lime; fosfor, calcium og jern.<br>
+
+                  Vitamin B6 findes i:<br>
+                  Kål, mælk, oksekød, æg, lever og grøntsager.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mellemrum py-lg-5 my-lg-5"></div>
+    <h1 id="rod_overskrift" class="mb-4 text-center py-5">Forebyg nerve- og hudproblemer</h1>
+    <div class="container d-flex flex-column flex-lg-row-reverse justify-content-lg-between rod">
+      <div class="produkt_img col px-5">
+        <div id="rod"> <img src="img/rod.png" class="img-fluid"> </div>
+      </div>
+      <div class="text col py-4 px-5 py-5">
+        <div>
+          <p class="py-lg-5 produkt_text">Forebyg nerve-og hudproblemer med BRUS
+            Vitamin-B6.
+
+            BRUS Vitamin-B6 hjælper dig, som har brug
+            for at forebygge nerve-og hudproblemer. Den
+            brusende tablet indeholder de mest naturlige
+            vitaminer og mineraler samt en forfriskende
+            smag af pære og lime.
+
+            Vitamin-B6 findes blandt andet i
+            mælkeprodukter, oksekød, æg, kål, lever og
+            grøntsager. Er du vegetar eller ikke drikker
+            mælk, ville dette supplement af kosttilskud
+            være perfekt til dig. </p>
+        </div>
+        <div id="laesmere" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Læs mere vitaminindholdet
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-body">
+                <p>Vitaminer: <br>
+                  Vitamin-B6 (pryridoxin)
+                  Pære; Vitamin A-, vitamin-B og vitamin-C
+                  Lime; Vitamin-B og vitamin-A<br>
+
+                  Mineraler:<br>
+                  Lime; fosfor, calcium og jern.<br>
+
+                  Vitamin B6 findes i:<br>
+                  Kål, mælk, oksekød, æg, lever og grøntsager.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mellemrum py-lg-5 my-lg-5"></div>
+    <h1 id="orange_overskrift" class="mb-4 text-center py-5">Forebyg nerve- og hudproblemer</h1>
+    <div class="container d-flex flex-column flex-lg-row justify-content-lg-between pb-5 orange">
+      <div class="produkt_img col px-5">
+        <div id="orange"> <img src="img/orange.png" class="img-fluid"> </div>
+      </div>
+      <div class="text col py-4 px-5 py-5">
+        <div>
+          <p class="py-lg-5 produkt_text">Forebyg nerve-og hudproblemer med BRUS
+            Vitamin-B6.
+
+            BRUS Vitamin-B6 hjælper dig, som har brug
+            for at forebygge nerve-og hudproblemer. Den
+            brusende tablet indeholder de mest naturlige
+            vitaminer og mineraler samt en forfriskende
+            smag af pære og lime.
+
+            Vitamin-B6 findes blandt andet i
+            mælkeprodukter, oksekød, æg, kål, lever og
+            grøntsager. Er du vegetar eller ikke drikker
+            mælk, ville dette supplement af kosttilskud
+            være perfekt til dig. </p>
+        </div>
+        <div id="laesmere" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Læs mere vitaminindholdet
+                </a>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-body">
+                <p>Vitaminer: <br>
+                  Vitamin-B6 (pryridoxin)
+                  Pære; Vitamin A-, vitamin-B og vitamin-C
+                  Lime; Vitamin-B og vitamin-A<br>
+
+                  Mineraler:<br>
+                  Lime; fosfor, calcium og jern.<br>
+
+                  Vitamin B6 findes i:<br>
+                  Kål, mælk, oksekød, æg, lever og grøntsager.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -94,13 +315,14 @@
     </div>
   </section>
 
-  <section id="nyhedsbrev" class="col mb-4 px-5">
-    <form>
+  <section id="nyhedsbrev" class="d-flex row m-5">
+    <h1 class="text-md-center"> Tilmeld dig vores nyhedsbrev </h1>
+    <form class="d-flex justify-content-sm-center">
       <div class="row">
-        <div class="col">
+        <div class="col px-mb-0">
           <input type="text" class="form-control" placeholder="Email-adresse">
         </div>
-        <div class="col">
+        <div class="col px-0">
           <button type="submit" class="btn btn-primary mb-2">Tilmeld</button>
         </div>
       </div>

@@ -22,11 +22,18 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 0.8em;
-  color: skyblue;
+  color: #80A8B4;
 }
 
 #laesmere a:hover {
-  color: black;
+  opacity: 80%;
+}
+
+.card {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 0;
+  background-color: white;
 }
 
 p {
@@ -36,10 +43,95 @@ p {
   line-height: 1.5rem;
 }
 
-.card {
-  background-color: white;
-  border-color: skyblue;
-  border-style: solid;
-  border-width: thick;
+.card p {
+  font-size: 0.8rem;
+}
 
+
+#laesmere a {
+  text-decoration: none;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.gron .card {
+  border-color: #879288;
+
+}
+
+.gron #laesmere a {
+  color: #879288;
+}
+
+.gul .card {
+  border-color: #E4CA97;
+
+}
+
+.gul #laesmere a {
+  color: #E4CA97;
+}
+
+.lilla .card {
+  border-color: #A5A7B8;
+
+}
+
+.lilla #laesmere a {
+  color: #A5A7B8;
+}
+
+.rod .card {
+  border-color: #C06E68;
+
+}
+
+.rod #laesmere a {
+  color: #C06E68;
+}
+.orange .card {
+  border-color: #E0976A;
+
+}
+.orange #laesmere a {
+  color: #E0976A;
+}
+
+#gron_overskrift {
+  color: #879288;
+}
+
+#gul_overskrift {
+  color: #E4CA97;
+}
+
+#lilla_overskrift {
+  color: #A5A7B8;
+}
+
+#rod_overskrift {
+  color: #C06E68;
+}
+
+#orange_overskrift {
+  color: #E0976A;
+}
+
+.produkt_text {
+  font-size: 0.8em;
+
+}
+
+button {
+  background-color: #80A8B4;
+  border-color: #80A8B4 !important;
+  border-radius: 0 !important;
+}
+
+
+input {
+  border-color: #80A8B4 !important;
+  border-radius: 0 !important;
 }
