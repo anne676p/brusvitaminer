@@ -9,15 +9,33 @@
 }
 
 .produktv {
-  background: hsl(var(--hue, 0) 60% 90%);
-  transition: background .3s;
+  background: hsl(var(--hue, 0));
+  transition: background .4s;
 }
 
 h1 {
   font-family: bree, sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   text-transform: uppercase;
+  font-size: 3em;
+
+}
+
+h2 {
+  font-family: bree, sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-right: 0.3em;
+}
+
+h3 {
+  font-family: bree, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: normal;
 }
 
 
@@ -38,7 +56,7 @@ h1 {
   border-style: solid;
   border-width: thin;
   border-radius: 0;
-  background-color: white;
+  background-color: transparent;
 }
 
 p {
@@ -106,23 +124,28 @@ p {
   color: #E0976A;
 }
 
-#gron_overskrift {
+#gron_overskrift,
+#gron_text h3 {
   color: #879288;
 }
 
-#gul_overskrift {
+#gul_overskrift,
+#gul_text h3 {
   color: #E4CA97;
 }
 
-#lilla_overskrift {
+#lilla_overskrift,
+#lilla_text h3 {
   color: #A5A7B8;
 }
 
-#rod_overskrift {
+#rod_overskrift,
+#rod_text h3 {
   color: #C06E68;
 }
 
-#orange_overskrift {
+#orange_overskrift,
+#orange_text h3 {
   color: #E0976A;
 }
 
