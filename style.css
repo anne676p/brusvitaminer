@@ -8,6 +8,11 @@
   background-color: aquamarine;
 }
 
+.produktv {
+  background: hsl(var(--hue, 0) 60% 90%);
+  transition: background .3s;
+}
+
 h1 {
   font-family: bree, sans-serif;
   font-weight: 400;
