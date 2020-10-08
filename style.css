@@ -91,10 +91,12 @@ p {
 .rod #laesmere a {
   color: #C06E68;
 }
+
 .orange .card {
   border-color: #E0976A;
 
 }
+
 .orange #laesmere a {
   color: #E0976A;
 }
@@ -125,13 +127,16 @@ p {
 }
 
 button {
-  background-color: #80A8B4;
+  background-color: #80A8B4 !important;
   border-color: #80A8B4 !important;
   border-radius: 0 !important;
+  width: 29vw;
 }
 
 
 input {
   border-color: #80A8B4 !important;
   border-radius: 0 !important;
+  border-style: hidden !important;
+  border-bottom-style: solid !important;
 }
