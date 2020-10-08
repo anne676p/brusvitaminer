@@ -64,6 +64,17 @@ p {
   font-weight: 400;
   font-style: normal;
   line-height: 1.5rem;
+  font-size: 0.8em;
+  color: #3F3F3F;
+}
+
+.highlight {
+  color: #80A8B4;
+}
+
+#hvorfortxt h1 {
+  color: #80A8B4;
+  font-weight: 400;
 }
 
 .card p {
@@ -149,10 +160,6 @@ p {
   color: #E0976A;
 }
 
-.produkt_text {
-  font-size: 0.8em;
-
-}
 
 button {
   background-color: #80A8B4 !important;
