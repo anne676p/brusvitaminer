@@ -1,3 +1,4 @@
+gsap.registerPlugin(ScrollTrigger);
 const root = document.documentElement;
 
 const sections = [...document.querySelectorAll("section")];
@@ -24,3 +25,29 @@ const observer = new IntersectionObserver(callback, options);
 sections.forEach((section, index) => {
   observer.observe(section)
 })
+
+sections.forEach((section) => {
+  const divs = section.querySelectorAll("div:not([role='tablist'])");
+
+  gsap.from(divs, {
+    opacity: 0,
+    y: 100,
+    duration: 1,
+    stagger: 1,
+    scrollTrigger: {
+      trigger: section,
+      start: "top center",
+      end: "center center",
+      markers: true,
+      scrub: true,
+    },
+  });
+});
+
+const buttons = document.querySelectorAll('[data-toggle="collapse"]');
+
+buttons.forEach(button => {
+  button.addEventListener('click', _ => {
+    ScrollTrigger.refresh(true);
+  })
+});
