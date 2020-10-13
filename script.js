@@ -55,12 +55,12 @@ function start() {
     })
   });
 
-  document.querySelector("#symbol_gron").addEventListener("click", klikGron);
+  document.querySelector(".symbol").addEventListener("click", klik);
 
 }
 
-function klikGron() {
-  console.log("klikgron");
+function klik() {
+  console.log("klik");
 
   document.getElementById("symbol_gron").classList.remove("hide");
   document.getElementById("symbol_gron").classList.add("gronfill");
