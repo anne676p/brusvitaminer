@@ -44,8 +44,6 @@ html {
 }
 
 
-
-
 .hero h3 {
   font-weight: 100;
   font-size: 1em;
@@ -141,9 +139,9 @@ p {
   color: #80A8B4;
 }
 
-#hvorfortxt h1 {
+#hvorfortxt h1,
+#abonnement h1 {
   color: #80A8B4;
-  font-weight: 400;
 }
 
 .card p {
@@ -249,6 +247,15 @@ input {
   border-radius: 0 !important;
   border-style: hidden !important;
   border-bottom-style: solid !important;
+}
+
+#nyhedsbrev {
+  background-color: rgb(128, 168, 180, 40%);
+}
+
+#nyhedsbrev p,
+#nyhedsbrev h1 {
+  color: white;
 }
 
 #abonnementimg {
