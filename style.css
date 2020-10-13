@@ -1,7 +1,27 @@
 .hero {
-  background-image: url(img/woman-running-against-wall-royalty-free-image-930134532-1552999674.jpg);
-  background-position: center;
-  height: 80vh;
+  background-image: linear-gradient(hsl(0 0% 90% / 60%), hsl(0 0% 90% / 60%)),
+    url(img/splash02.jpg);
+  background-size: cover;
+  background-position: 100% 50%;
+
+}
+
+.hero h3 {
+  font-weight: 100;
+}
+
+.hero_link {
+  text-decoration: none;
+  border-style: solid;
+  padding: 10px;
+  border-color: #80A8B4;
+  color: #80A8B4;
+  background-color: hsla(0, 100%, 100%, 0.8);
+}
+
+.hero_link:hover {
+  color: #80A8B4;
+  font-weight: 500;
 }
 
 #hvorforimg {
