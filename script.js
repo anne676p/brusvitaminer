@@ -64,4 +64,14 @@ function klik() {
 
   document.getElementById("symbol_gron").classList.remove("hide");
   document.getElementById("symbol_gron").classList.add("gronfill");
+
+  document.querySelector(".symbol").addEventListener("click", fjern);
+}
+
+function fjern() {
+  console.log("fjern");
+  document.getElementById("symbol_gron").classList.add("hide");
+  document.getElementById("symbol_gron").classList.remove("gronfill");
+
+  document.querySelector(".symbol").addEventListener("click", klik);
 }
