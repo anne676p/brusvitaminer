@@ -1,7 +1,8 @@
+gsap.registerPlugin(ScrollTrigger);
+
 window.addEventListener("load", start);
 
 function start() {
-  gsap.registerPlugin(ScrollTrigger);
   const root = document.documentElement;
 
   const sections = [...document.querySelectorAll("section")];

@@ -202,6 +202,11 @@ input {
   fill: #879288;
 }
 
+#symbol_gron:hover {
+  fill: #879288;
+
+}
+
 #symbol_gul {
   stroke: #E4CA97;
 
@@ -209,6 +214,11 @@ input {
 
 .gulfill {
   fill: #E4CA97;
+}
+
+#symbol_gul:hover {
+  fill: #E4CA97;
+
 }
 
 #symbol_lilla {
@@ -220,6 +230,11 @@ input {
   fill: #A5A7B8;
 }
 
+#symbol_lilla:hover {
+  fill: #A5A7B8;
+
+}
+
 #symbol_rod {
   stroke: #C06E68;
 
@@ -229,6 +244,11 @@ input {
   fill: #C06E68;
 }
 
+#symbol_rod:hover {
+  fill: #C06E68;
+
+}
+
 #symbol_orange {
   stroke: #E0976A;
 
@@ -236,6 +256,11 @@ input {
 
 .orangefill {
   fill: #E0976A;
+}
+
+#symbol_orange:hover {
+  fill: #E0976A;
+
 }
 
 @media screen and (min-width: 600px) {
