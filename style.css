@@ -187,15 +187,18 @@ input {
 }
 
 #symbol_gron {
-  fill: none;
   stroke: #80A8B4;
   stroke-miterlimit: 13;
   stroke-width: 5px;
   cursor: pointer;
 }
 
-#symbol_gron:hover {
+.gronfill {
   fill: #80A8B4;
+}
+
+.hide {
+  fill: none;
 }
 
 
