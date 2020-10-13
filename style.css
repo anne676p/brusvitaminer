@@ -184,23 +184,59 @@ input {
 .symbol {
   height: 20vw;
   width: 9vw;
-}
-
-#symbol_gron {
-  stroke: #80A8B4;
   stroke-miterlimit: 13;
   stroke-width: 5px;
   cursor: pointer;
-}
-
-.gronfill {
-  fill: #80A8B4;
 }
 
 .hide {
   fill: none;
 }
 
+#symbol_gron {
+  stroke: #879288;
+
+}
+
+.gronfill {
+  fill: #879288;
+}
+
+#symbol_gul {
+  stroke: #E4CA97;
+
+}
+
+.gulfill {
+  fill: #E4CA97;
+}
+
+#symbol_lilla {
+  stroke: #A5A7B8;
+
+}
+
+.lillafill {
+  fill: #A5A7B8;
+}
+
+#symbol_rod {
+  stroke: #C06E68;
+
+}
+
+.rodfill {
+  fill: #C06E68;
+}
+
+#symbol_orange {
+  stroke: #E0976A;
+
+}
+
+.orangefill {
+  fill: #E0976A;
+}
 
 @media screen and (min-width: 600px) {
 

@@ -55,14 +55,41 @@ function start() {
     })
   });
 
-  document.querySelector(".symbol").addEventListener("click", klik);
-
+  document.querySelector("#symbol_gron").addEventListener("click", klikGron);
+  document.querySelector("#symbol_gul").addEventListener("click", klikGul);
+  document.querySelector("#symbol_lilla").addEventListener("click", klikLilla);
+  document.querySelector("#symbol_rod").addEventListener("click", klikRod);
+  document.querySelector("#symbol_orange").addEventListener("click", klikOrange);
 }
 
-function klik() {
-  console.log("klik");
-
+function klikGron() {
+  console.log("klik gron");
   var gron = document.getElementById("symbol_gron");
   gron.classList.toggle("hide");
   gron.classList.toggle("gronfill");
+
+}
+
+function klikGul() {
+  var gul = document.getElementById("symbol_gul");
+  gul.classList.toggle("hide");
+  gul.classList.toggle("gulfill");
+}
+
+function klikLilla() {
+  var lilla = document.getElementById("symbol_lilla");
+  lilla.classList.toggle("hide");
+  lilla.classList.toggle("lillafill");
+}
+
+function klikRod() {
+  var rod = document.getElementById("symbol_rod");
+  rod.classList.toggle("hide");
+  rod.classList.toggle("rodfill");
+}
+
+function klikOrange() {
+  var orange = document.getElementById("symbol_orange");
+  orange.classList.toggle("hide");
+  orange.classList.toggle("orangefill");
 }
