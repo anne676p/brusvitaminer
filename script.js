@@ -42,7 +42,6 @@ function start() {
         trigger: section,
         start: "top center",
         end: "center center",
-        markers: true,
         scrub: true,
       },
     });
