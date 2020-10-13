@@ -1,6 +1,11 @@
-gsap.registerPlugin(ScrollTrigger);
+window.addEventListener('DOMContentLoaded', (event) => {
+  console.log('DOM fully loaded and parsed');
+  gsap.registerPlugin(ScrollTrigger);
+  start();
+});
 
-window.addEventListener("load", start);
+
+//window.addEventListener("load", start);
 
 function start() {
   const root = document.documentElement;
