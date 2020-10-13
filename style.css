@@ -21,36 +21,46 @@
 
 .arrow {
   left: 50%;
-  width: 40px;
-  height: 40px;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  width: 25px;
+  height: 20px;
+  background-image: url(svg/arrow.svg);
   background-size: contain;
   animation: bounce;
 }
 
 .hero {
-  background-image: linear-gradient(hsl(0 0% 90% / 60%), hsl(0 0% 90% / 60%)),
+  background-image: linear-gradient(180deg, rgba(190, 224, 217, 1) 0%, rgba(128, 168, 180, 0.5) 0%, rgba(128, 168, 180, 0.500437675070028) 100%, rgba(48, 94, 149, 1) 100%, rgba(9, 58, 130, 1) 100%, rgba(128, 168, 180, 0.304359243697479) 100%),
     url(img/splash02.jpg);
   background-size: cover;
   background-position: 100% 50%;
 
 }
 
+
+
 .hero h3 {
   font-weight: 100;
+  font-size: 1em;
+  color: white;
+
+}
+
+.hero h2 {
+  color: white;
 }
 
 .hero_link {
   text-decoration: none;
-  border-style: solid;
-  padding: 10px;
-  border-color: #80A8B4;
-  color: #80A8B4;
-  background-color: hsla(0, 100%, 100%, 0.8);
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding: 5px;
+  border-color: white;
+  color: white;
+
 }
 
 .hero_link:hover {
-  color: #80A8B4;
+  color: white;
   font-weight: 500;
 }
 
