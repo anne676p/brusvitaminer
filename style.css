@@ -169,6 +169,12 @@ button {
   width: 29vw;
 }
 
+.navbar-toggler {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  width: auto;
+}
+
 
 input {
   border-color: #80A8B4 !important;
