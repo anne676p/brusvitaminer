@@ -249,12 +249,15 @@ input {
   border-bottom-style: solid !important;
 }
 
-#nyhedsbrev {
+#nyhedsbrev,
+#some {
   background-color: rgb(128, 168, 180, 40%);
 }
 
 #nyhedsbrev p,
-#nyhedsbrev h1 {
+#nyhedsbrev h1,
+#some p,
+#some h1 {
   color: white;
 }
 
